@@ -16,4 +16,13 @@ class PagesController < ApplicationController
 
   def transport
   end
+
+  def alimentation
+  end
+
+  def vieprivee
+  end
+
+  def stats
+  end
 end

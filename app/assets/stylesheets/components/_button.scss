@@ -1,58 +1,112 @@
-.btn-flat-download {
-  padding: 8px 24px;
-  border-radius: 50px;
-  background: transparent;
-  border: $agri-orange 1px solid;
-  transition: background 0.3s ease;
-  max-width: fit-content;
-  font-size: 12px;
-}
-
-.btn-discover {
-  text-align: center;
-  padding-top: 0.5em;
-  width: 200px;
-  color: white;
-  font-size: 12px;
+.btn {
+  padding: 8px 30px ;
+  margin: 5px;
+  text-decoration: none;
   border-radius: 30px;
-  height: 2.6em;
-  border: transparent;
+  color: white;
+  width: fit-content;
 }
 
-.btn-discover.simple {
-  background-color: $gray;
+.btn-yellow:hover a {
+  color: white;
 }
 
-.btn-discover.alim {
+.btn-red:hover a {
+  color: white;
+}
+
+.btn-green:hover a {
+  color: white;
+}
+
+.btn-red {
   background-color: $red;
+  color: white;
 }
 
-.btn-discover.log {
+.btn-red:hover {
+  background-color: $light-red;
+}
+
+.btn-yellow {
   background-color: $yellow;
 }
 
-.btn-discover.trans {
+.btn-yellow:hover {
+  background-color: $light-yellow;
+}
+
+.btn-green {
   background-color: $green;
 }
 
-.btn-discover a {
-  text-decoration: none;
+.btn-green:hover {
+  background-color: $light-green;
+}
+
+
+
+#dropdownMenuLink {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.dropdown-item {
+  font-size: 20px !important;
+}
+
+.dropdown-item:hover {
   color: white;
+}
+
+#dropdown-item-senourrir:hover {
+  background-color: $yellow;
+}
+
+#dropdown-item-seloger:hover {
+  background-color: $pink;
+}
+
+#dropdown-item-sedeplacer:hover {
+  background-color: $green;
+}
+
+.btn-grey {
+background-color: GREY;
+}
+
+.btn-grey:hover {
+  background-color: #C5CED7;
+  color: grey;
+}
+
+
+
+
+
+
+
+
+.btn-discover.simple a:hover {
+  color: black !important;
+  text-decoration: none;
 }
 
 .btn-discover.simple:hover {
   background-color: $light-gray;
-  color: black;
+  color: black !important;
   text-decoration: none;
 }
 
 
 .btn-discover.alim:hover {
-  background-color: $light-red;
+  background-color: $light-yellow;
 }
 
 .btn-discover.log:hover {
-  background-color: $light-yellow;
+  background-color: $light-red;
 }
 
 .btn-discover.trans:hover {
@@ -214,4 +268,11 @@
 .button-details-product-fiche a:hover {
  text-decoration: none;
  color: black;
+}
+
+
+/// simulateur
+
+button .App___StyledButton-z647t1-6 .hhrQqI{
+  display: none;
 }
